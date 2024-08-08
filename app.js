@@ -7,9 +7,9 @@ const app = express();
 
 // MySQL connection
 const db = mysql.createConnection({
-    host: 'localhost',
+    host: 'mysql.railway.internal',
     user: 'root',
-    password: 'abc@123',
+    password: 'LtMoYbQIuZTWamatSTaaOpGXDevMmsJA',
     database: 'test'
 });
 
